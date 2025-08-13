@@ -1,4 +1,4 @@
-POST http://localhost:3333/pessoas
+POST https://projeto-node-6hqh.onrender.com/pessoas
 Content-Type: application/json
 
 {
@@ -9,13 +9,13 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:3333/pessoas?search=Rita
+GET https://projeto-node-6hqh.onrender.com/pessoas?search=Rita
 
 ###
-GET http://localhost:3333/pessoas
+GET https://projeto-node-6hqh.onrender.com/pessoas
 
 ###
-PUT http://localhost:3333/pessoas/88100b62-c027-4f34-a1b4-f90b27ed4575
+PUT https://projeto-node-6hqh.onrender.com/pessoas/88100b62-c027-4f34-a1b4-f90b27ed4575
 Content-Type: application/json
 
 {
@@ -26,4 +26,4 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:3333/pessoas/88100b62-c027-4f34-a1b4-f90b27ed4575
+DELETE https://projeto-node-6hqh.onrender.com/pessoas/a6e91666-2905-49ce-a93d-81fcc9f0d1bc
