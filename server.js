@@ -15,12 +15,15 @@ await server.register(swagger, {
             description: 'Documentação da API de cadastro de pessoas',
             version: '1.0.0'
         },
-        host: 'localhost:3333',
-        schemes: ['http'],
+        host: process.env.RENDER_EXTERNAL_URL 
+              ? process.env.RENDER_EXTERNAL_URL.replace('https://', '') 
+              : `localhost:${process.env.PORT || 3333}`,
+        schemes: ['https', 'http'],
         consumes: ['application/json'],
         produces: ['application/json']
     }
 });
+
 
 await server.register(swaggerUI, {
     routePrefix: '/docs',
