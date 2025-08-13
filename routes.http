@@ -1,0 +1,29 @@
+POST http://localhost:3333/pessoas
+Content-Type: application/json
+
+{
+  "nome": "Rita L",
+  "idade": 21,
+  "sexo": "F",
+  "ocupacao": "Estudante"
+}
+
+###
+GET http://localhost:3333/pessoas
+
+###
+GET http://localhost:3333/pessoas
+
+###
+PUT http://localhost:3333/pessoas/88100b62-c027-4f34-a1b4-f90b27ed4575
+Content-Type: application/json
+
+{
+  "nome": "Rita Luiza",
+  "idade": 31,
+  "sexo": "F",
+  "ocupacao": "Gerente"
+}
+
+###
+DELETE http://localhost:3333/pessoas/88100b62-c027-4f34-a1b4-f90b27ed4575
