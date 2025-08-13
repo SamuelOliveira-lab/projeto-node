@@ -9,7 +9,7 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:3333/pessoas
+GET http://localhost:3333/pessoas?search=Rita
 
 ###
 GET http://localhost:3333/pessoas
