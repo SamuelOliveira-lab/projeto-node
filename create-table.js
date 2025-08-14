@@ -1,7 +1,6 @@
 // create-table-pessoas.js
 import sql from './db.js';
 
-// Caso queira recriar sempre, descomente:
 // await sql`DROP TABLE IF EXISTS pessoas`;
 
 await sql`
