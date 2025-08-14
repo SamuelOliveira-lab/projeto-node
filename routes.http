@@ -2,10 +2,10 @@ POST https://projeto-node-6hqh.onrender.com/pessoas
 Content-Type: application/json
 
 {
-  "nome": "Rita L",
-  "idade": 21,
-  "sexo": "F",
-  "ocupacao": "Estudante"
+  "nome": "Mateus O",
+  "idade": 26,
+  "sexo": "M",
+  "ocupacao": "Escritor"
 }
 
 ###
